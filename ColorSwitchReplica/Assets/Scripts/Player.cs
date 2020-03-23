@@ -1,18 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
 
     public float jumpForce = 10f;
 
     public Rigidbody2D rb;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+
+   
 
     // Update is called once per frame
     void Update()
@@ -23,9 +19,10 @@ public class Player : MonoBehaviour
         }
     }
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public static void ReloadScene()
     {
-        Debug.Log(collision.tag);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+
 }
