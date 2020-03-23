@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
+using TMPro;
 public class ColorChanger : MonoBehaviour
 {
 
@@ -16,27 +14,31 @@ public class ColorChanger : MonoBehaviour
     public Color colorPink;
     public Color colorBlack;
 
-    public int NumOfSpecialMoves = 3;
+    public int numOfSpecialMoves = 3;
+
+    public TextMeshProUGUI movesText;
 
     // Start is called before the first frame update
     void Start()
     {
         SetRandomColor();
+        SetMovesText();
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.M) && NumOfSpecialMoves>0)
+        if (Input.GetKey(KeyCode.M) && numOfSpecialMoves>0)
         {
             UseSpecialMove();
         }
-        if (Input.GetKeyUp(KeyCode.M) && NumOfSpecialMoves>0)
+        if (Input.GetKeyUp(KeyCode.M) && numOfSpecialMoves>0)
         {
             SetRandomColor();
-            NumOfSpecialMoves--;
-            Debug.Log(NumOfSpecialMoves);
+            numOfSpecialMoves--;
+            Debug.Log(numOfSpecialMoves);
+            SetMovesText();
         }
-        if (Input.GetKeyDown(KeyCode.M) && NumOfSpecialMoves <= 0)
+        if (Input.GetKeyDown(KeyCode.M) && numOfSpecialMoves <= 0)
         {
             Debug.Log("Out Of Moves");
         }
@@ -92,5 +94,10 @@ public class ColorChanger : MonoBehaviour
     {
         currentColor = "Black";
         sr.color = colorBlack;
+    }
+
+    void SetMovesText()
+    {
+        movesText.text = "Moves: " + numOfSpecialMoves;
     }
 }
