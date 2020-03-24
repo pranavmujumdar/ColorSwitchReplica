@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: d8c871f871a59e741b9e895b2a3fdf2f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5148676874399617708
+    second: Animation_0
+  - first:
+      213: -2116301368006561546
+    second: Animation_1
+  - first:
+      213: 8201368165407130277
+    second: Animation_2
+  - first:
+      213: 4873358367803472704
+    second: Animation_3
+  - first:
+      213: -6973823048216505844
+    second: Animation_4
+  - first:
+      213: -4573408279075214707
+    second: Animation_5
+  - first:
+      213: -5312699776443621071
+    second: Animation_6
+  - first:
+      213: -1285638715501733310
+    second: Animation_7
+  - first:
+      213: 4365072214762097464
+    second: Animation_8
+  - first:
+      213: 5576780757670322865
+    second: Animation_9
+  - first:
+      213: 8769834437802526653
+    second: Animation_10
+  - first:
+      213: 5021506724192914705
+    second: Animation_11
+  - first:
+      213: 8205141292254445082
+    second: Animation_12
+  - first:
+      213: -4147135289202293165
+    second: Animation_13
+  - first:
+      213: 5511879047408621434
+    second: Animation_14
+  - first:
+      213: 4539855897199859091
+    second: Animation_15
+  - first:
+      213: -6919421813385288206
+    second: Animation_16
+  - first:
+      213: 2058576119414841407
+    second: Animation_17
+  - first:
+      213: 643645489602608906
+    second: Animation_18
+  - first:
+      213: -6690454506160936106
+    second: Animation_19
+  - first:
+      213: 4741064742094319209
+    second: Animation_20
+  - first:
+      213: -4600911918956786192
+    second: Animation_21
+  - first:
+      213: 8930554481666654525
+    second: Animation_22
+  - first:
+      213: -7088790019483620798
+    second: Animation_23
+  - first:
+      213: -5751829492854817598
+    second: Animation_24
+  - first:
+      213: 6639618438358369150
+    second: Animation_25
+  - first:
+      213: -4449433429494503869
+    second: Animation_26
+  - first:
+      213: -1908146683188866790
+    second: Animation_27
+  - first:
+      213: 4760121670689881827
+    second: Animation_28
+  - first:
+      213: -3054588194003238206
+    second: Animation_29
+  - first:
+      213: 8859970165688302533
+    second: Animation_30
+  - first:
+      213: 3155811692605643180
+    second: Animation_31
+  - first:
+      213: -7137299094996038555
+    second: Animation_32
+  - first:
+      213: -2456155029160874743
+    second: Animation_33
+  - first:
+      213: 6470364508913028432
+    second: Animation_34
+  - first:
+      213: -1600961823431413588
+    second: Animation_35
+  - first:
+      213: 8447874294938551399
+    second: Animation_0
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animation_0
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 434
+        width: 410
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76447f899e0ec3570800000000000000
+      internalID: 8447874294938551399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_1
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 370
+        width: 557
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0bb425e1361a2e0800000000000000
+      internalID: -2116301368006561546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_2
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 334
+        width: 716
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a20a4bc4ec11d170800000000000000
+      internalID: 8201368165407130277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_3
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 240
+        width: 1026
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b7a188d95a1a340800000000000000
+      internalID: 4873358367803472704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animation_4
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 81
+        width: 1270
+        height: 1225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c029f94f2e0083f90800000000000000
+      internalID: -6973823048216505844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

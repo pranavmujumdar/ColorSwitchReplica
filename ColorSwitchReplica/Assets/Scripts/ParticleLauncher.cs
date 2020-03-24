@@ -27,7 +27,7 @@ public class ParticleLauncher : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.M) && ColorChanger.numOfSpecialMoves>0)
         {
-            LaunchParticles();
+            //LaunchParticles();
         }
     }
 

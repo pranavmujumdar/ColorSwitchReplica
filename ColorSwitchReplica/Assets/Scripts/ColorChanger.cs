@@ -30,6 +30,8 @@ public class ColorChanger : MonoBehaviour
     //TMPro GUI text feild to show how many moves are left
     public TextMeshProUGUI movesText;
 
+    //Animator
+    public Animator animator;
     // Setting random color at the beginning and setting Special Moves text
     void Start()
     {
@@ -49,9 +51,7 @@ public class ColorChanger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M) && numOfSpecialMoves>0)
         {
             FindObjectOfType<AudioManager>().Play("Canon");
-            numOfSpecialMoves--;
-            Debug.Log(numOfSpecialMoves);
-            SetMovesText();
+            animator.SetBool("IsSpecialMove", true);
         }
         if (Input.GetKey(KeyCode.M) && numOfSpecialMoves>0)
         {
@@ -59,7 +59,12 @@ public class ColorChanger : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.M) && numOfSpecialMoves>0)
         {
+            animator.SetBool("IsSpecialMove", false);
             SetRandomColor();
+            numOfSpecialMoves--;
+            Debug.Log(numOfSpecialMoves);
+            SetMovesText();
+            
         }
         if (Input.GetKeyDown(KeyCode.M) && numOfSpecialMoves <= 0)
         {
@@ -86,6 +91,7 @@ public class ColorChanger : MonoBehaviour
             {
                 SetRandomColor();
                 Destroy(collision.gameObject);
+                FindObjectOfType<AudioManager>().Play("Pass");
                 return;
             }
             Debug.Log(collision.tag);
@@ -93,6 +99,8 @@ public class ColorChanger : MonoBehaviour
             if (collision.tag != currentColor)
             {
                 Debug.Log("GO");
+                FindObjectOfType<AudioManager>().Stop("Theme");
+                FindObjectOfType<AudioManager>().Play("Loser");
                 Player.ReloadScene();
             }
         }

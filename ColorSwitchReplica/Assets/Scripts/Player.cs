@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
         if(Input.GetButtonDown("Jump") || Input.GetMouseButtonDown(0))
         {
             rb.velocity = Vector2.up * jumpForce;
+            FindObjectOfType<AudioManager>().Play("Jump");
             //rb.AddForce(transform.up * jumpForce);
         }
     }

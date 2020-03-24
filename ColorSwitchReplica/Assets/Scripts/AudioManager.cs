@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     // Called before start to make sure there are no other instances
     void Awake()
     {
+        
         if (instance == null)
         {
             instance = this;
@@ -25,6 +26,7 @@ public class AudioManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
         
+
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -34,20 +36,18 @@ public class AudioManager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
+
     }
     void Start()
     {
-        /*
         Play("Theme");
-        audioSrc = gameObject.GetComponent<AudioSource>();
-        Debug.Log(audioSrc.volume);
-        */
     }
     void Update()
     {
-        //audioSrc.volume = musicVolume;
-        //Sound s = Array.Find(sounds, sound => sound.name == "theme");
-        //s.source.volume = musicVolume;
+        if (!isPlaying("Theme"))
+        {
+            Play("Theme");
+        }
     }
     /// <summary>
     /// Play method to be called from other scripts to enable adding SFX
